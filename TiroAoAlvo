@@ -1,0 +1,30 @@
+package appaps;
+
+import java.util.Random;
+import java.lang.Math;
+import java.util.Scanner;
+
+
+public class TiroAoAlvo {
+    
+    static void Joga(String nome){
+    
+    Scanner teclado = new Scanner(System.in);
+    
+        String nome= nome;
+        int jogadorx = teclado.nextInt();
+        int jogadory = teclado.nextInt();
+        
+        
+        
+        public void Setnomejogador(Stringnomejogador){
+            this.nomejogador = nomejogador;
+         
+        }
+
+        
+    };
+    
+    
+    
+}

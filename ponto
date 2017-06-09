@@ -1,0 +1,20 @@
+package appaps;
+
+import java.util.Random;
+import appaps.TiroAoAlvo;
+
+
+public class Ponto {
+
+    Random rand = new Random();
+   
+        int x = (rand.nextInt(100)-50);
+        int y = (rand.nextInt(100)-50);
+        
+
+    
+}
+
+
+
+}

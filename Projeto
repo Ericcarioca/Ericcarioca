@@ -1,0 +1,97 @@
+///PRINCIPAL///
+
+package appaps;
+
+import java.util.Random;
+import appaps.TiroAoAlvo;
+import java.util.Scanner;
+
+public class AppAPS extends TiroAoAlvo {
+
+    
+    public static void main(String[] args) {
+
+        Scanner teclado = new Scanner(System.in);
+        
+        System.out.println("Diga seu nome");
+        
+        
+         }
+           
+}
+
+
+///Classe joga///
+
+package appaps;
+import java.util.Scanner;
+
+public class Joga {
+    
+    Scanner teclado = new Scanner(System.in);
+    
+    int jogadorx = teclado.nextInt();
+    int jogadory = teclado.nextInt();
+    
+
+
+    static String SetNome(){
+        
+    }
+
+///classe ponto///
+
+package appaps;
+
+import java.util.Random;
+import appaps.TiroAoAlvo;
+
+
+public class Ponto {
+
+    Random rand = new Random();
+   
+        int x = (rand.nextInt(100)-50);
+        int y = (rand.nextInt(100)-50);
+        
+
+    
+}
+
+
+
+}
+
+
+///TiroAoAlvo///
+
+package appaps;
+
+import java.util.Random;
+import java.lang.Math;
+import java.util.Scanner;
+
+
+public class TiroAoAlvo {
+    
+    static void Joga(String nome){
+    
+    Scanner teclado = new Scanner(System.in);
+    
+        String nome= nome;
+        int jogadorx = teclado.nextInt();
+        int jogadory = teclado.nextInt();
+        
+        
+        
+        public void Setnomejogador(Stringnomejogador){
+            this.nomejogador = nomejogador;
+         
+        }
+
+        
+    };
+    
+    
+    
+}

@@ -1,0 +1,15 @@
+package appaps;
+import java.util.Scanner;
+
+public class Joga {
+    
+    Scanner teclado = new Scanner(System.in);
+    
+    int jogadorx = teclado.nextInt();
+    int jogadory = teclado.nextInt();
+    
+
+
+    static String SetNome(){
+        
+    }
